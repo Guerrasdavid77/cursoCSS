@@ -1,0 +1,10 @@
+
+/* ESTO ES PARA CUALQUIER COSA QUE SIGA DESPUES DE H2 */
+/* h2 + p{
+    color: red;
+} */
+
+/* AQUI YA INCLUYE A LO QUE ESTE EN H3 H4 H5 SIEMPRE Y CUANDO ESTE ABAJO DE H2 */
+h2 ~ p {
+    color: red;
+}
