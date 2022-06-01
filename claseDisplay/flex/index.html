@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container">
+
+        <div class="box-1 box">
+            <p>box1</p>
+        </div>
+        <div class="box-2 box">
+            <p>box2</p>
+        </div>
+        <div class="box-3 box">
+            <p>box3</p>
+        </div>
+        <div class="box-4 box">
+            <p>box4</p>
+        </div>
+        <div class="box-5 box">
+            <p>box5</p>
+        </div>
+        <div class="box-6 box">
+            <p>box6</p>
+        </div>
+
+    </main>
+</body>
+</html>
+
+<!-- JUSTIFY- CONTENT 
+    
+flex-start: Alinea elementos al lado izquierdo del contenedor.
+flex-end: Alinea elementos al lado derecho del contenedor.
+center: Alinea elementos en el centro del contenedor.
+space-between: Muestra elementos con la misma distancia entre ellos.
+space-around: Muestra elementos con la misma separación alrededor de ellos.
+space-evenly: hace que el espacio que deje sea igual para todos  -->
+
+<!--ALINGS
+
+    Esto puede ser confuso, pero align-content determina el espacio entre las líneas, mientras que align-items determina como los elementos en su conjunto están alineados dentro del contenedor. Cuando hay solo una línea, align-content no tiene efecto -->
+
+
+<!-- ALIGN-SELF
+
+Otra propiedad que puedes aplicar a elementos individuales es align-self. Esta propiedad acepta los mismos valores de align-items y sus valores son usados para un elemento específico.
+flex-start: Alinea elementos a la parte superior del contenedor.
+flex-end: Alinea elementos a la parte inferior del contenedor.
+center: Alinea elementos en el centro (verticalmente hablando) del contenedor.
+baseline: Muestra elementos en la línea base del contenedor
+stretch: Elementos se estiran para ajustarse al contenedor. -->
+
+
+<!-- ALIGN-ITEMS
+    Nota que cuando es una columna, justify-content cambia a vertical y align-items a horizontal.
+
+flex-start: Alinea elementos a la parte superior del contenedor.
+flex-end: Alinea elementos a la parte inferior del contenedor.
+center: Alinea elementos en el centro (verticalmente hablando) del contenedor.
+baseline: Muestra elementos en la línea base del contenedor
+stretch: Elementos se estiran para ajustarse al contenedor. -->
+
+<!-- ALIGN CONTENT
+
+flex-start: Las líneas se posicionan en la parte superior del contenedor.
+flex-end: Las líneas se posicionan en la parte inferior del contenedor.
+center: Las líneas se posicionan en el centro (verticalmente hablando) del contenedor.
+space-between: Las líneas se muestran con la misma distancia entre ellas.
+space-around: Las líneas se muestran con la misma separación alrededor de ellas.
+stretch: Las líneas se estiran para ajustarse al contenedor. -->
+
+
+<!-- FLEX-DIRECTION
+
+row: Elementos son colocados en la misma dirección del texto.
+row-reverse: Elementos son colocados en la dirección opuesta al texto.
+column: Elementos se colocan de arriba hacia abajo.
+column-reverse: Elementos se colocan de abajo hacia arriba. -->
+
+
+<!-- ORDER
+
+order sólo pretende afectar el orden visual de los elementos y no su orden lógico u orden de tabulación. order no se debe usar en un medio no visual tal como un speech
+ESTO AYUDA A ORDENAR DE FORMA PREFERIBLE OBJETOS
+/* Valor numérico incluyendo números negativos */
+order: 5;
+order: -5;
+/* Valores Globales */
+order: inherit;
+order: initial;
+order: unset;
+-->
+
+
+<!-- FLEX - WRAP
+
+nowrap: Cada elemento se ajusta en una sola línea.
+wrap: los elementos se envuelven alrededor de líneas adicionales.
+wrap-reverse: Los elementos se envuelven alrededor de líneas adicionales en reversa. -->
+
+
+<!-- FLEX - FLOW
+Por ejemplo, puedes usar flex-flow para establecer filas y envolverlas.
+
+row: Elementos son colocados en la misma dirección del texto.
+row-reverse: Elementos son colocados en la dirección opuesta al texto.
+column: Elementos se colocan de arriba hacia abajo.
+column-reverse: Elementos se colocan de abajo hacia arriba. 
+
+nowrap: Cada elemento se ajusta en una sola línea.
+wrap: los elementos se envuelven alrededor de líneas adicionales.
+wrap-reverse: Los elementos se envuelven alrededor de líneas adicionales en reversa. 
+
+/* flex-flow: <'flex-direction'> */
+flex-flow: row;
+flex-flow: row-reverse;
+flex-flow: column;
+flex-flow: column-reverse;
+
+/* flex-flow: <'flex-wrap'> */
+flex-flow: nowrap;
+flex-flow: wrap;
+flex-flow: wrap-reverse;
+
+/* flex-flow: <'flex-direction'> and <'flex-wrap'> */
+flex-flow: row nowrap;
+flex-flow: column wrap;
+flex-flow: column-reverse wrap-reverse;
+
+/* valores globales */
+flex-flow: inherit;
+flex-flow: initial;
+flex-flow: unset;
+
+--> 
+
+
